@@ -1,6 +1,5 @@
-import React , { useState , useEffect }from 'react';
-import domtoimage from 'dom-to-image';
-import download from 'downloadjs';
+import React , { useState  }from 'react';
+
 import './index.css'
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -11,7 +10,7 @@ import Main from './component/Main';
 
 import InputFile from './component/InputFile';
 
-import jsondata from './data/data.json';
+// import jsondata from './data/data.json';
 
 function App() {
   const [d , setdata ] = useState({data:[]});
